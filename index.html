@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fotoğraf Web Sitesi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .background {
+      background-image: url("Red dawn menü.jpg"); /* BURAYA FOTOĞRAF LİNKİNİ KOY */
+      background-size: cover;
+      background-position: center;
+      height: 100%;
+      width: 100%;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      position: relative;
+      align-items: flex-start;
+    }
+
+    .overlay-text {
+      color: rgb(255, 255, 255);
+      font-size: 2em;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      text-align: center;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 12px;
+      margin-top: -250px;
+    }
+  </style>
+</head>
+<body>
+  <div class="background">
+    <div class="overlay-text">
+      <h1>Hoş Geldiniz</h1>
+    </div>
+  </div>
+</body>
+</html>
